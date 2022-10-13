@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+    <link rel="stylesheet" href="Tema2.css">
+    <header>
+        ETIQUETAS ATRIBUTOS Y VALORES
+    </header>
+    <body>
+        <div class="center" id="principal">
+            <h2>
+                <strong>TIPOS DE ATRIBUTOS</strong>
+            </h2> 
+            <br>
+            <hr>
+            <p>  atributos son la forma que tienen los autores de definir propiedades para un elemento. Estas propiedades habitualmente cambian la forma en que los navegadores interpretan al elemento, al cambiar su significado o presentación. Por ejemplo, el elemento a inserta un vínculo en el documento, pero el atributo rel indica la relación entre el documento actual (el que contiene al vínculo) y el recurso de destino (al cual el vínculo está apuntando).
+
+                Muchos de los atributos en HTML5, aquellos conocidos como atributos globales, están disponibles para todos los elementos del estándar. Pero la mayoría de los elementos tienen además un conjunto de atributos específicos que sólo están disponibles o específicamente adaptados para ellos.
+                <br> <br> Aunque cada una de las etiquetas HTML define sus propios atributos, encontramos algunos comunes a muchas o casi todas las etiquetas, que se dividen en cuatro grupos según su funcionalidad:
+                <ol>
+                    <li>
+                        Atributos básicos
+                    </li>
+                    <li>
+                        Atributos de internacionalización
+                    </li>
+                    <li>
+                        Atributos de eventos
+                    </li>
+                    <li>
+                        Atributos de foco
+                    </li>
+                </ol>
+            </p>
+            <p>
+                Video de apoyo (Conceptos):
+                <br>
+                Palomares, [Kiko Palomares]. (2021, 27 marzo). ¿Qué son los ATRIBUTOS en HTML? (con ejemplos prácticos!) [Curso de HTML desde cero] [Vídeo]. YouTube.
+                <a href="https://www.youtube.com/watch?v=AH0olSnnaRI" target="_blank">
+                        https://www.youtube.com/watch?v=AH0olSnnaRI
+                </a>
+            </p>
+            <br>
+            <img src="https://www.digitallearning.es/wp-content/uploads/2017/07/Estructura_etiqueta_HTML.png" alt="atributos basicos">
+            <hr>
+            <br>
+            <br>
+            <header> <strong> CLASIFICACION</strong></header>
+            <article>
+                <section>
+                    <p id="atributos"> <strong> Atributos Basicos</strong> </p>
+                    <p>
+                        Los atributos básicos se utilizan en la mayoría de etiquetas HTML y XHTML, aunque adquieren mayor sentido cuando se utilizan hojas de estilo en cascada (CSS).
+                        <br>
+                        La mayoría de páginas web actuales utilizan los atributos id y class de forma masiva. Sin embargo, estos atributos sólo son realmente útiles cuando se trabaja con CSS y con Javascript. 
+                        Ejemplo de etiquetas basicas:
+                        <br>
+                        <ul>
+                            <li>id="texto": Establece un indicador único a cada elemento</li>
+                            <li>class="texto": Establece la clase CSS que se aplica a los estilos del elemento</li>
+                            <li>style="texto": Aplica de forma directa los estilos CSS de un elemento</li>
+                            title="texto": Establece el título del elemento (Mejora la accesibilidad)
+                        </ul>
+                    </p>
+                </section>
+                <section>
+                    <p id="atributos"> <strong> Atributos de internacionalización</strong> </p>
+                    <p>
+                        Estos atributos se utilizan en aquellas páginas que muestran sus contenidos en varios idiomas y las que quieran indicar de forma explícita el idioma de sus contenidos.
+                        <br> En las páginas XHTML, el atributo xml:lang tiene más prioridad que lang y es obligatorio incluirlo siempre que se incluye el atributo lang. Los idiomas se indican mediante un código estandarizado (es para español, en para inglés, etc.). 
+                        <br> Ejemplos de atributos de internacionalización:
+                        <ul>
+                            <li>lang = "codigo de idioma": Indica el idioma del elemento mediante un código predefinido.</li>
+                            <li>xml:lang = "codigo de idioma": Indica el idioma del elemento mediante un código predefinido.</li>
+                            <li>dir: Indica la dirección del texto (útil para los idiomas que escriben de derecha a izquierda).</li>
+                        </ul>
+                    </p>
+                </section>
+                <section>
+                    <p id="atributos"> <strong> Atributos de eventos</strong> </p>
+                    <p>
+                        Estos atributos sólo se utilizan en las páginas web que incluyen código JavaScript para realizar acciones dinámicas sobre los elementos de la página. Cada vez que el usuario pulsa una tecla, mueve su ratón o pulsa cualquier botón del ratón, se produce un evento dentro del navegador. Utilizando JavaScript y los siguientes atributos, es posible responder de forma adecuada a cada evento.
+                        <br> Ejemplo de atributos de eventos:
+                        <ul>
+                            <li>onclick: Ejecuta la acción cuando se realiza un clic sobre el elemento</li>
+                            <li>onmousedown: Ejecuta la acción cuando se detecta el botón pulsado del ratón</li>
+                            <li>onmousemove: Ejecuta la acción cuando se detecta el movimiento del ratón sobre el elemento</li>
+                            <li>onmouseout: Ejecuta la acción cuando el ratón abandona el elemento</li>
+                        </ul>
+                    </p>
+                </section>
+                <section>
+                    <p id="atributos"> <strong> Atributos de foco</strong> </p>
+                    <p>
+                        Se le denomina foco o focus, cuando un control o elemento del documento ha sido seleccionado. Cuando ese elemento deja de estar seleccionado, "pierde el foco" y es el nuevo elemento seleccionado el que se dice que tiene "el foco".
+                        <br>Ejemplo de atributos de foco:
+                        <ul>
+                            <li>accesskey="letra": Establece una tecla de acceso rápido a un elemento HTML</li>
+                            <li>tabindex="numero": Establece la posición del elemento en el orden de tabulación de la página (valor entre 0 y 32.767)</li>
+                            <li>onfocus, onblur: Controlan los eventos JavaScript que se ejecutan cuando el elemento obtiene o pierde el foco</li>
+                        </ul>
+                    </p>
+                </section>
+                <footer>
+                    <img src="https://edteam-media.s3.amazonaws.com/infographics/original/7c207957-1836-4258-adf5-533742dea399.jpg" width="500px" height="600px" alt="tipos de atributos">
+                </footer>
+            </article>
+
+            <h2>
+                <strong>ELEMENTOS</strong>
+            </h2> 
+            <p> 
+
+                Además de etiquetas y atributos, HTML define el término elemento para referirse a las partes que componen los documentos HTML.
+                
+                Aunque en ocasiones se habla de forma indistinta de "elementos" y "etiquetas", en realidad un elemento HTML es mucho más que una etiqueta, ya que está formado por:
+                Una etiqueta de apertura, cero o más atributos, texto encerrado por la etiqueta, una etiqueta de cierre.
+                
+                El texto encerrado por la etiqueta es opcional, ya que algunas etiquetas de HTML no pueden encerrar ningún texto. El siguiente esquema muestra un elemento HTML, formado por una etiqueta p , atributos y contenidos de texto:
+                <br>
+                <img src="https://uniwebsidad.com/static/libros/imagenes/xhtml/esquema_elementos_html.gif" alt="">
+            </p>
+            <p>
+                Video de apoyo (Conceptos):
+                <br>
+                Palomares, [Kiko Palomares]. (2021, 27 marzo). ¿Qué son los ELEMENTOS en HTML? (con ejemplos prácticos!) [Curso de HTML desde cero]. YouTube.
+                <a href="https://www.youtube.com/watch?v=fhWGKNQ5KVY" target="_blank">
+                    https://www.youtube.com/watch?v=fhWGKNQ5KVY </a>
+            </p>
+            <p>
+                Elementos de HTML (Pagina de apoyo): <br>
+                Elementos HTML ordenados por función. (s. f.). edu4java. Recuperado 31 de marzo de 2022, de 
+                <a href="http://www.edu4java.com/es/web/html-elementos-funcion.html">http://www.edu4java.com/es/web/html-elementos-funcion.html</a>
+            </p>
+            <p>
+                El contenido de un elemento es, hablando en términos generales, todo aquello que se encuentra entre sus etiquetas de apertura y cierre. Dependiendo del elemento, esto puede ir desde absolutamente nada a un trozo de documento HTML. Este contenido es lo que será afectado por la funcionalidad o significado del elemento. Por ejemplo, el elemento em brinda énfasis a su contenido, y los navegadores habitualmente muestran su texto con un estilo de fuente particular para hacerlo sobresalir del texto normal.
+            </p>
+            <br>
+            <br>
+            <p id="ref"><strong>REFERENCIAS</strong></p> <br>
+            <ul>
+                <li>Listas HTML. (2021). Manual Web. https://www.manualweb.net/html/listas-html/</li>
+                <li>Víctor Sánchez. (2020, 31 julio). Listado de etiquetas HTML. caront estudio. Recuperado 1 de abril de 2022, de https://carontestudio.com/blog/listado-de-etiquetas-html/</li>
+                <li>Tipos de atributos. (s. f.). https://3con14.biz/html/elementos/8-tipos-de-atributos.html. Recuperado 31 de marzo de 2022, de https://3con14.biz/html/elementos/8-tipos-de-atributos.html</li>
+                <li>Xavier Idevik. (2021, 14 julio). ¿Qué es una etiqueta HTML y cuáles son las más importantes? iebschool. https://www.iebschool.com/blog/que-es-etiqueta-html-analitica-usabilidad/</li>
+                <li>Etiquetas y atributos HTML. (s. f.). html quick. https://www.htmlquick.com/es/tutorials/tags-attributes.html#tags</li>
+                <li>Elementos HTML. (s. f.). uniwebsidad. https://uniwebsidad.com/libros/xhtml/capitulo-2/elementos-html</li>
+            </ul>
+        </div>
+    </body>
+</html>

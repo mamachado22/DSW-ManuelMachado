@@ -1,0 +1,14 @@
+#principal{
+    border: 0px outset rgb(171, 243, 219);
+  background-color: aliceblue;
+  text-align: center;
+  margin: 3%;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    text-align: justify;
+}
+
+#titulo{
+    text-align: center;
+}
