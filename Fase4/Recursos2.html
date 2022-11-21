@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+    <link rel="stylesheet" href="Recursos.css">
+    <header>
+        RECURSOS MULTIMEDIA
+    </header>
+    <nav>
+        <div>
+            <ul id="nav0">
+                <li> <a href="">Inicio</a> </li>
+            </ul>
+            <ul id="nav1">
+                <li> <a href="">Temas</a> </li>
+                <ul>
+                    <li><a href="Tema1.html">Tema 1</a></li>
+                    <li><a href="Tema2.html">Tema 2</a></li>
+                </ul>
+            </ul>
+    
+            <ul id="nav2">
+                <li> <a href="">Recursos digitales</a> </li>
+                <ul>
+                    <li><a href="Recursos1.html">Recurso 1</a></li>
+                    <li><a href="Recursos2.html">Recurso 2</a></li>
+                </ul>
+            </ul>
+    
+            <ul id="nav3">
+                <li> <a href="">Aprendizaje</a> </li>
+                <ul>
+                    <li><a href="">Actividad 1</a></li>
+                    <li><a href="">Actividad 2</a></li>
+                </ul>
+            </ul>
+    
+            <ul id="nav4">
+                <li> <a href="">Acerca de</a> </li>
+                <ul>
+                    <li><a href="Autor.html">Autor</a></li>
+                </ul>
+            </ul>
+        </div>
+    </nav>
+    <body>
+        <div id="principal">
+            <h2>CARGAR CONTENIDO MULTIMEDIA</h2>
+            <br>
+            <label for="homepage">Agrega tu url:</label>
+            <input type="url" id="homepage" name="homepage">
+            <button class="btn btn-primary">Añadir</button>
+            <br>
+            <label for="links">Links Añadidos: </label>
+            <textarea name="urls" id="" cols="80" rows="10" disabled >
+                https://www.youtube.com/watch?v=mNbnV3aN3KA
+            </textarea>
+
+            <br> <hr>
+            <label for="Anadir">Añadir imagen: </label>
+            <input type="image" id="Name" name="img" src="https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/17959187/image/medium-fe0247cebdaf8334db47bf281f2b95ec.png" width="200" height="200" />
+            <button class="btn btn-primary">Añadir</button>
+            <br> <br>
+            <label for="cargar">Cargar Archivos: </label>
+            <input type="hidden" name="MAX_FILE_SIZE" value="4194304" />
+            <input type="file" />
+            <br> <br>
+            <p><strong>DESCRIPCION Y OBSERVACIONES DE LOS ARCHIVOS (opcional)</strong></p>
+            <hr>
+            <textarea name="descripcion" id="descrip" cols="80" rows="10"></textarea>
+        </div>
+    </body>
+</html>

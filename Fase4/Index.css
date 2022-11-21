@@ -1,0 +1,36 @@
+div{
+    margin: 0;
+}
+
+footer{
+    background-color: rgb(210, 231, 250);
+}
+
+article{
+    background-color: rgb(170, 250, 250);
+    display: flex;
+    /* flex-direction: row; */
+    height: 400px;
+    align-items: flex-start;
+    flex-flow: column nowrap;
+}
+
+section{
+    background-color: aliceblue;
+    flex-basis: 400px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#sect1{
+flex: 50%;
+}
+
+#sect2{
+flex: 30%;
+}
+
